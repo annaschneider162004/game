@@ -1,0 +1,32 @@
+city:
+  name: "Minecraft City"
+  width: 256
+  height: 128
+  length: 256
+  num_buildings: 15
+  num_roads: 8
+  num_parks: 5
+
+building:
+  min_width: 15
+  max_width: 30
+  min_height: 20
+  max_height: 40
+  min_depth: 15
+  max_depth: 30
+  types:
+    - residential
+    - commercial
+    - industrial
+
+road:
+  width: 5
+  material: "stone"
+  edge_material: "gravel"
+
+park:
+  min_width: 40
+  max_width: 80
+  min_length: 40
+  max_length: 80
+  tree_density: 0.02
